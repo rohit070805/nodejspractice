@@ -7,4 +7,6 @@ console.warn(x+y);
 
 /* Interview Question
 ye console.log jo browser me console.log hota h us se alag hai
-ye nodejs ka apna console.log hai*/
+ye nodejs ka apna console.log hai
+even console.log kisi javascript ka h hi nhi ye ya to browser ka hota hai ya fir yha nodejs ke pas hai
+*/
