@@ -9,7 +9,7 @@
 
 // Now uske andr sb deatils hongi project ki
 // Dependencies me packages ki details hongi
-// or ek folder bhi bnn jayega apne aap nodemosules ke naam se
+// or ek folder bhi bnn jayega apne aap node-modules ke naam se
 // Jisme in packages ys fir unke help modules ki file pdi hongi
 // ise github pe nhi dalna hota .gitignore file me daldo
 
@@ -23,4 +23,22 @@ isko delete kr skte hai wapis aajayegi
 
 // Colors package:
 const colors = require('colors');
-console.log("hiii".blue);
+console.log("hii".blue);
+
+// **interview question
+// node js is single threaded
+// Node js is async language
+
+/* If we delete node-modules folder 
+just run "npm install" command it will pe created again
+using dependencies in package.json
+*/
+
+/*
+Nodemon is like hot start save krte hi nye wala run
+Nodemon use krne ke liye
+ nodemon ./lec8packages.js
+ normal run ke liye
+  node ./lec8packages.js
+*/
+
