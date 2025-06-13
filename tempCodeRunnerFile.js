@@ -1,4 +1,3 @@
-fs.writeFileSync(filePath,"This is file 1");
-// fs.readFile(filePath,'utf8',(err,item)=>{
-//     console.log(item);
+app.get('*',(_,resp)=>{
+//     resp.sendFile(`${publicPath}/about.html`)
 // })
