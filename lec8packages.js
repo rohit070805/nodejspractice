@@ -4,7 +4,7 @@
 // run command npm init
 // fill all details,package.json will be created
 // agr koi error aata hai to open powershell as administrator and run
-// Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+// Set-ExecutionPolicy -S   cope CurrentUser -ExecutionPolicy RemoteSigned
 // package.json will be created
 
 // Now uske andr sb deatils hongi project ki
