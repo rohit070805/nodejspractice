@@ -15,7 +15,7 @@ app.post('/',async (req,resp)=>{
 //    yaha postman se data dal rhe hai or vha post select krke jab ye url dalenge 
 //    to ye response vhi show ho jayega or mongo db me data insert ho jayegs
     let data = await dbconnection();
-    let result = await data.insertOne(req.body);
+    let result = await data.insertMany(req.body);
     resp.send(result);
 
 })
@@ -40,7 +40,7 @@ app.delete('/:name',async (req,resp)=>{
     resp.send(result);
     console.log(result)
 })    
-app.listen(5000);
+app.listen(4000);
 
 
 // jab chrome me localhost:5000 khol rhe hai to sirf app.get ko hi target krta hia 
