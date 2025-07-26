@@ -1,2 +1,1 @@
- // to acknowledged to hmesha true aayega agr command sahi se run hui chahe updatebhi na hua ho 
-    // agr pata krna ai ki update hua ya nhi to matched or modified count ko dekho
+const data= ["tony","0000","bossuser",1]
