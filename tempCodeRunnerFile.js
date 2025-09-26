@@ -1,1 +1,1 @@
-const data= ["tony","0000","bossuser",1]
+ // res.send(user);

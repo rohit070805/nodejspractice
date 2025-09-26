@@ -21,11 +21,14 @@
   },
   "homepage": "https://github.com/rohit070805/nodejspractice#readme",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "colors": "^1.4.0",
+    "cookie-parser": "^1.4.7",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.17.0",
-    "mongoose": "^8.16.4",
+    "mongoose": "^8.18.2",
     "mysql": "^2.18.1"
   }
 }
